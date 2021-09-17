@@ -1,0 +1,88 @@
+body {
+  overflow: hidden; /*  it is used for turning off scroll bar */
+}
+.main_container {
+  display: flex; /* it change my screen into two part column wise */
+  height: 98vh;
+  flex-direction: column;
+  border: 0.5rem solid red;
+}
+.addmsg_container {
+  display: flex;
+  order: 1;
+  background-color: red;
+  border: 0.5rem solid red;
+}
+.message_conatiner {
+  height: 300vh; /* here i give the message_continer 3 times the 
+  display of the screen so the scroll bar is come along as data increased
+  as i used auto method in overflow */
+  overflow: auto;
+  padding-left: 2%;
+  flex-grow: 5;
+  background-color: rgb(252, 169, 16, 0.3);
+  border: 0.5rem solid red;
+}
+.input_container {
+  display: flex; /* it change input or send button into row format */
+}
+.input_container input {
+  width: 40rem;
+  outline: none;
+  padding: 0.3rem 1rem;
+  border-radius: 5rem;
+}
+.input_container input:focus {
+  background-color: rgb(247, 232, 205);
+}
+.input_container button {
+  margin-left: 0.5rem;
+  padding: 0.2rem 2rem;
+  border: 0.1rem solid red;
+  border-radius: 0.5rem;
+}
+.input_container button:hover {
+  border: 0.1rem solid orange;
+  color: red;
+}
+#timetag {
+  margin-bottom: 3rem;
+  font-size: xx-small;
+}
+#usertag {
+  line-height: 0.5;
+  color: green;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+#usertag:hover {
+  color: red;
+  text-decoration: underline;
+  /* font-size: large; */
+}
+#messagetag {
+  line-height: 0;
+}
+#agenttag {
+  color: red;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+#agenttag:hover {
+  color: green;
+  text-decoration: underline;
+  /* font-size: large; */
+}
+.rightdata {
+  padding-right: 2%;
+  text-align: right; /* it will send the user data to right hand side of the screen */
+}
+/* here media screen for different resolution */
+@media (max-width: 768px) {
+  .input_container input {
+    width: 100%;
+  }
+  .input_container button {
+    padding: 0.1rem 0.3rem;
+  }
+}
