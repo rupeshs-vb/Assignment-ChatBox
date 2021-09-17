@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Assignment-ChatBox/static/css/main.c8ec4fde.chunk.css",
+    "main.js": "/Assignment-ChatBox/static/js/main.0c738b39.chunk.js",
+    "main.js.map": "/Assignment-ChatBox/static/js/main.0c738b39.chunk.js.map",
+    "runtime-main.js": "/Assignment-ChatBox/static/js/runtime-main.dc6e2eb7.js",
+    "runtime-main.js.map": "/Assignment-ChatBox/static/js/runtime-main.dc6e2eb7.js.map",
+    "static/js/2.a6601a91.chunk.js": "/Assignment-ChatBox/static/js/2.a6601a91.chunk.js",
+    "static/js/2.a6601a91.chunk.js.map": "/Assignment-ChatBox/static/js/2.a6601a91.chunk.js.map",
+    "static/js/3.b18af81a.chunk.js": "/Assignment-ChatBox/static/js/3.b18af81a.chunk.js",
+    "static/js/3.b18af81a.chunk.js.map": "/Assignment-ChatBox/static/js/3.b18af81a.chunk.js.map",
+    "index.html": "/Assignment-ChatBox/index.html",
+    "static/css/main.c8ec4fde.chunk.css.map": "/Assignment-ChatBox/static/css/main.c8ec4fde.chunk.css.map",
+    "static/js/2.a6601a91.chunk.js.LICENSE.txt": "/Assignment-ChatBox/static/js/2.a6601a91.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc6e2eb7.js",
+    "static/js/2.a6601a91.chunk.js",
+    "static/css/main.c8ec4fde.chunk.css",
+    "static/js/main.0c738b39.chunk.js"
+  ]
+}
